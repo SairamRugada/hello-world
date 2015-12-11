@@ -187,18 +187,6 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 sairam.rugada@INA133SLHH MINGW64 /d/wamp/www/git_learning/project (master)
-$ checkout origin
-bash: checkout: command not found
-
-sairam.rugada@INA133SLHH MINGW64 /d/wamp/www/git_learning/project (master)
-$ checkout origin master
-bash: checkout: command not found
-
-sairam.rugada@INA133SLHH MINGW64 /d/wamp/www/git_learning/project (master)
-$ checkout master
-bash: checkout: command not found
-
-sairam.rugada@INA133SLHH MINGW64 /d/wamp/www/git_learning/project (master)
 $ git checkout origin master
 error: pathspec 'origin' did not match any file(s) known to git.
 error: pathspec 'master' did not match any file(s) known to git.
@@ -216,21 +204,6 @@ git: 'origin' is not a git command. See 'git --help'.
 sairam.rugada@INA133SLHH MINGW64 /d/wamp/www/git_learning/project (master)
 $ git checkout origin
 error: pathspec 'origin' did not match any file(s) known to git.
-
-sairam.rugada@INA133SLHH MINGW64 /d/wamp/www/git_learning/project (master)
-$ git push origin master
-error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
-Password for 'https://SairamRughada@github.com':
-
-
-remote: Invalid username or password.
-fatal: Authentication failed for 'https://github.com/SairamRugada/hello-world.git/'
-
-sairam.rugada@INA133SLHH MINGW64 /d/wamp/www/git_learning/project (master)
-$
-
-sairam.rugada@INA133SLHH MINGW64 /d/wamp/www/git_learning/project (master)
-$
 
 sairam.rugada@INA133SLHH MINGW64 /d/wamp/www/git_learning/project (master)
 $ git push master
@@ -349,9 +322,3 @@ Writing objects: 100% (2/2), 376 bytes | 0 bytes/s, done.
 Total 2 (delta 0), reused 0 (delta 0)
 To https://github.com/SairamRugada/hello-world.git
    f97e817..a668c69  master -> master
-
-sairam.rugada@INA133SLHH MINGW64 /d/wamp/www/git_learning/project (master)
-$ ^C
-
-sairam.rugada@INA133SLHH MINGW64 /d/wamp/www/git_learning/project (master)
-$
